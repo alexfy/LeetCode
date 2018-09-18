@@ -1,0 +1,4 @@
+select FirstName, LastName, City, State
+from Person Left Join Address
+using(PersonId)
+#on Person.PersonId = Address.PersonId
