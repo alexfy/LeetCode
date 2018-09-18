@@ -20,7 +20,6 @@ class Solution:
         """
         x = n
         y = n
-        count = 0
         while n>1:
             x = self.cal(x)
             if (x==1): return True
